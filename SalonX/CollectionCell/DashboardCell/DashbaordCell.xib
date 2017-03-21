@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="XQZ-ck-R61" customClass="DashboardCollectionViewCell" customModule="SalonX" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="192" height="191"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="192" height="191"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hBs-eL-qxs">
+                        <rect key="frame" x="0.0" y="0.0" width="192" height="191"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_agenda_dashboard" translatesAutoresizingMaskIntoConstraints="NO" id="U02-Hc-qT2">
+                                <rect key="frame" x="57.5" y="46.5" width="77" height="76.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agenda" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p45-o4-N9n">
+                                <rect key="frame" x="8" y="131" width="176" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" id="oyV-Va-pTT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.015686274510000001" green="0.62352941179999999" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="U02-Hc-qT2" firstAttribute="height" secondItem="hBs-eL-qxs" secondAttribute="height" multiplier="0.4" id="0P9-xt-Er4"/>
+                            <constraint firstItem="U02-Hc-qT2" firstAttribute="centerX" secondItem="hBs-eL-qxs" secondAttribute="centerX" id="4rH-pe-9L1"/>
+                            <constraint firstItem="U02-Hc-qT2" firstAttribute="width" secondItem="hBs-eL-qxs" secondAttribute="width" multiplier="0.4" id="FPL-4X-8U8"/>
+                            <constraint firstItem="U02-Hc-qT2" firstAttribute="centerY" secondItem="hBs-eL-qxs" secondAttribute="centerY" constant="-11.5" id="Ghv-ph-bUW"/>
+                            <constraint firstItem="p45-o4-N9n" firstAttribute="leading" secondItem="hBs-eL-qxs" secondAttribute="leading" constant="8" id="ILt-no-1vM"/>
+                            <constraint firstItem="p45-o4-N9n" firstAttribute="top" secondItem="U02-Hc-qT2" secondAttribute="bottom" constant="8" id="TcN-VM-OLv"/>
+                            <constraint firstAttribute="trailing" secondItem="p45-o4-N9n" secondAttribute="trailing" constant="8" id="x2p-EU-YVI"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hBs-eL-qxs" secondAttribute="trailing" id="1E6-b0-1Dt"/>
+                <constraint firstAttribute="bottom" secondItem="hBs-eL-qxs" secondAttribute="bottom" id="6mG-q3-SLz"/>
+                <constraint firstItem="hBs-eL-qxs" firstAttribute="top" secondItem="XQZ-ck-R61" secondAttribute="top" id="Kmb-wD-drc"/>
+                <constraint firstItem="hBs-eL-qxs" firstAttribute="leading" secondItem="XQZ-ck-R61" secondAttribute="leading" id="xXk-cw-L5p"/>
+            </constraints>
+            <size key="customSize" width="192" height="191"/>
+            <connections>
+                <outlet property="imgOption" destination="U02-Hc-qT2" id="QmR-tR-LR1"/>
+                <outlet property="lblOptionName" destination="p45-o4-N9n" id="l3I-0F-tIH"/>
+            </connections>
+            <point key="canvasLocation" x="105" y="137.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_agenda_dashboard" width="51" height="51"/>
+    </resources>
+</document>

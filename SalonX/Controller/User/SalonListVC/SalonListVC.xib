@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SalonListVC" customModule="SalonX" customModuleProvider="target">
+            <connections>
+                <outlet property="tblSalonList" destination="n5J-PE-fUI" id="5f1-vq-alm"/>
+                <outlet property="view" destination="p6x-fN-JzA" id="fKC-aq-RZ8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="p6x-fN-JzA">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="n5J-PE-fUI">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="MhL-6m-crD"/>
+                        <outlet property="delegate" destination="-1" id="XKK-94-wmD"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="n5J-PE-fUI" secondAttribute="bottom" id="68d-1E-es9"/>
+                <constraint firstItem="n5J-PE-fUI" firstAttribute="leading" secondItem="p6x-fN-JzA" secondAttribute="leading" id="KEM-ry-Xxm"/>
+                <constraint firstAttribute="trailing" secondItem="n5J-PE-fUI" secondAttribute="trailing" id="Lfk-54-Itc"/>
+                <constraint firstItem="n5J-PE-fUI" firstAttribute="top" secondItem="p6x-fN-JzA" secondAttribute="top" id="OGB-bi-3hu"/>
+                <constraint firstItem="n5J-PE-fUI" firstAttribute="leading" secondItem="p6x-fN-JzA" secondAttribute="leading" id="SZa-OJ-aSH"/>
+                <constraint firstAttribute="bottom" secondItem="n5J-PE-fUI" secondAttribute="bottom" id="Z5y-kj-EVg"/>
+                <constraint firstAttribute="trailing" secondItem="n5J-PE-fUI" secondAttribute="trailing" id="gdA-g1-CSh"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

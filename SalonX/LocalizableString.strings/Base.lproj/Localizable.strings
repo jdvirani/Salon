@@ -1,0 +1,339 @@
+/* 
+  Localizable.strings
+  SalonX
+
+  Created by Haresh Vavadiya on 3/2/17.
+  Copyright © 2017 dignizant. All rights reserved.
+*/
+
+
+//MARK: - ViewController Titles
+"salonx" = "SalonX";
+"save" = "Save";
+"cancel" = "Cancel";
+"noInternet" = "Please check your Internet Connection!";
+"areYouSureToLogout" = "Are you sure?\nYou want to logout.";
+"ok" = "OK";
+"Ok" = "OK";
+"somethingWentWrong" = "Something went wrong!";
+
+//View Controller titles
+"editSalonDetail" = "Edit Salon Detail";
+"editExtraDetail" = "Edit Extra Details";
+"managePicture" = "Manage Picture";
+"manageService" = "Manage Services";
+"manageEmployee" = "Manage Employee";
+"manageProgram" = "Manage Program";
+"lastMinuteOffer" = "Last Minute Offer";
+"addEmployee" = "Add Employee";
+"lastMinutes" = "Last Minutes";
+"notifications" = "Notifications";
+
+//Tabar Title
+"dashboard" = "Dashboard";
+"manageSalon" = "Manage Salon";
+"agenda" = "Agenda";
+"report" = "Report";
+"client" = "Client";
+"clients" = "Clients";
+
+//Login
+"login" = "Login";
+"signUp" = "Sign up";
+"email" = "Email";
+"password" = "Password";
+"dontHaveAccount" = "Don't have an Account?";
+"signUpAs" = "Sign up as";
+"beatyProfessional" = "Beauty Professionl";
+"continueWithFB" = "Continue with Facebook";
+"help" = "Help";
+
+//Salon Register
+"name" = "Name";
+"businessType" = "Business Type";
+"city" = "City";
+"phone" = "Phone";
+"confirmPasword" = "Confirm Password";
+"register" = "Register";
+"alreadyHaveAccount" = "Already have an Account?";
+"user" = "User";
+
+//Dashboard
+"profile" = "Profile";
+"reports" = "Reports";
+"setting" = "Setting";
+"payment" = "Payment";
+
+//Manage Salon
+
+//1. Edit Salon Detail
+
+"general" = "GENERAL";
+"nameArtist" = "Name Individual / Artist";
+"profession" = "Profession";
+"description" = "Description";
+"editSalonAddressHeader" = "EDIT SALON ADDRESS / PLACE WHERE YOU WORK";
+"country" = "Country";
+"street" = "Street";
+"zip" = "Zip";
+"salon" = "Salon";
+"socialMedia" = "SOCIAL MEDIA";
+
+"websiteLinkPlaceHolder" = "Website Link";
+"whatsAppPlaceHolder" = "Whatapp Number";
+"facebookPlaceHolder" = "Facebook Username";
+"instagramPlaceHolder" = "Instragram Username";
+"youtubePlaceHolder" = "Youtube URL";
+"twitterPlaceHolder" = "Twitter Username";
+"googlePlaceHolder" = "GoolePlus Username";
+"pinterestPlaceHolder" = "Pinterest Username";
+
+//2. Extra Salon Detail
+
+"utilityForSalon" = "UTILITIES FOR SALON";
+"addUtility" = "ADD UTILITIES";
+"rulesForSalon" = "RULES FOR SALON";
+
+"addGroup" = "Add Group";
+"addService" = "Add Service";
+
+//4. Manage Service
+"descriptionHeader" = "DESCRIPTION";
+"serviceHeader" = "SERVICE";
+"priceHeader" = "PRICE";
+"durationHeader" = "DURATION";
+"categoryHeader" = "CATEGORY";
+"subCategoryHeader" = "SUB CATEGORY";
+"groupService" = "GROUP SERVICES";
+"selectHere" = "Select Here";
+
+//5. Manage Employee
+"employeeHeader" = "EMPLOYEE";
+"speciality" = "Speciality";
+"selectService" = "Select Service";
+
+//6. Manage Program
+"days" = "Days";
+"open" = "Open";
+"close" = "Close";
+"done" = "Done";
+
+//7. Last Minute offer List
+"normalPrice" = "NORMAL PRICE";
+"offerPrice" = "OFFER PRICE";
+"dicount" = "DISCOUNT";
+
+//Client
+"searchClient" = "Search Clients...";
+"appointment" = "Appointment";
+"editProfile" = "Edit Profile";
+"type" = "Type";
+"birthdate" = "Birthdate";
+"note" = "Note";
+"next" = "Next";
+"finished" = "Finished";
+"firstName" = "First Name";
+"lastName" = "Last Name";
+"phoneNo." = "Phone No.";
+"emailID" = "Email ID";
+"add" = "Add";
+"by" = "by";
+"noAppointmentFound" = "No Appointment Found";
+"addClient" = "Add Clients";
+
+//Report
+"profileActivity" = "PROFILE ACTIVITY";
+"views" = "Views";
+"appointments" = "Appointments";
+"favorite" = "Favorite";
+"dollersBooked" = "Dollers Booked";
+"statistics" = "STATISTICS";
+"appointmentHeader" = "APPOINTMENT";
+"topServices" = "TOP SERVICES";
+"employees" = "EMPLOYEES";
+"smsCounter" = "SMS COUNTER";
+"freeSMS" = "Free SMS / monthly";
+"smsConsumed" = "SMS Consumed";
+"total" = "TOTAL";
+"exportReport" = "Export Report";
+
+//Setting
+"termnsAndCondition" = "Terms and Conditions";
+"privacyPolicy" = "Privacy Policy";
+"contact" = "Contact";
+"blog" = "Blog";
+"help" = "Help";
+"loginAndPassword" = "Login & Password";
+"logout" = "Logout";
+
+//Agenda Screens
+
+//1. Add Appointment
+"addAppointment" = "Add Appointment";
+"personal" = "Personal";
+"lastMinute" = "Last Minute";
+"" = "";
+
+//------------------------------------------------------------------------------
+//ERROR MESSAGES
+"pleaseEnterCity" = "Please Enter City\n";
+"pleaseChooseProfession" = "Please Choose Professition.\n";
+"pleaseEnterBusinessURL" = "Please Enter Business URL.\n";
+"pleaseChooseCountry" = "Please Chhose Country.\n";
+"pleaseEnterStreetName" = "Please Enter Street Name.\n";
+"pleaseEnterZip" = "Please Enter Zip.\n";
+"enterEmailAddress" = "Email Can't be blank!\n";
+"invalidEmail" = "Invalid Email\n";
+"passwordCantBlank" = "Password Can't be blank!\n";
+"InvaidPassword" = "Invalid Password\n";
+"pleaseAddSalonRules" = "Please enter salon Rules.\n";
+"pleaseAddAtLeastOneDayProgram" = "Please add at least One day Program.\n";
+"pleaseAddSomeUtilities" = "Please add at least one Utility.\n";
+
+//Add client
+"pleaseChooseImage" = "Please choose Profile picture.\n";
+"pleaseEnterFirstName" = "Please enter First name.\n";
+"pleaseEnterValidName" = "Please enter valid name.\n";
+"pleaseEnterLastName" = "Please enter Last name.\n";
+"pleaseSelectType" = "Please enter User type.\n";
+"pleaseSelectGender" = "Please select Gender.\n";
+"pleaseEnterPhone" = "Please enter Phone.\n";
+"pleaseEnterEmail" = "Please enter Email.\n";
+"pleaseEnterValidEmail" = "Please enter valid Email";
+"pleaseSelectBirthdate" = "Please select the Birthdate.\n";
+"pleaseEnterNotes" = "Please enter Notes.\n";
+
+
+//------------------------------------------------------------------------------
+//Hitesh Mistry's String
+//------------------------------------------------------------------------------
+
+// Alert Title Text
+"Alert" = "SalonX";
+
+// Lable Text
+"lbl_welcome"="Welcome to";
+"lbl_ContactusHeader" = "Contact us";
+"lbl_ContactusFullName" = "Full Name";
+"lbl_ContactusEmailID" = "Email ID";
+"lbl_ContactusPhone" = "Phone";
+"lbl_ContactusSubject" = "Subject";
+"lbl_ContactusComment" = "Comments";
+"lbl_TermsAndConditionsHeader" = "Terms & Conditions";
+"lbl_PrivacyPolicyHeader" = "Privacy Policy";
+"lbl_TermsAndConditionsTitleName" = "About Terms & Conditions";
+"lbl_FavoriteSalonHeader" = "Favorite Salon";
+"lbl_MyProfileHeader" = "My Profile";
+"lbl_MyAppointmentHeader" = "My Appointment";
+"lbl_FilterHeader" = "Filter";
+"lbl_FilterDate" = "DATE";
+"lbl_FilterLocation" = "LOCATION";
+"lbl_FilterPrice" = "PRICE";
+"lbl_MessageHeader" = "Message";
+"lbl_PopMyAppointment_CancelAppointment" = "Are you sure want to cancel this appointment?";
+"lbl_PopMyAppointment_ModifyAppointment" = "What you want to modify at this appointment?";
+"lbl_ServicesHeader" = "Select Services";
+"lbl_LastMintOfferHeader" = "Last min Offer";
+"lbl_BookLastminOfferHeader" = "Book Last Minute Offer";
+"lbl_BookLastminOfferCell_Description" = "DESCRIPTION";
+"lbl_BookLastminOfferCell_CancelPolicy" = "CANCELATION POLICY";
+"lbl_BookLastminOfferCell1_Staff" = "Staff";
+"lbl_BookLastminOfferCell1_Total" = "Total";
+"lbl_BookLastminOfferCell2_SuareTextBook" = "Is the first time you book a";
+"lbl_BookLastminOfferCell3_PayVenue" = "Pay at Venue";
+"lbl_BookLastminOfferCell3_PayU" = "Pay with pay U";
+"lbl_BookLastminOfferCell3_AcceptTNCSalon" = "I accept Terms and Conditions of SalonX";
+"lbl_BookLastminOfferCell3_FinishPayment" = "Finish Payment";
+"lbl_no_records_found" = "no records found";
+"lbl_SalonListHeader" = "Salon List";
+"lbl_SalonDetail_Reviews_TotalReview" = "TOTAL REVIEW";
+"lbl_SalonDetail_Reviews_PlusViewMore" = "+ View More";
+"lbl_SalonDetail_Reviews_MinsViewMore" = "- View More";
+"lbl_SalonDetail_Reviews_Program" = "PROGRAM";
+"lbl_SalonDetail_Reviews_Location" = "LOCATION";
+"lbl_SalonDetail_Reviews_Utility" = "UTILITY";
+"lbl_SalonDetail_Reviews_SocialMedia" = "SOCIAL MEDIA";
+"lbl_SalonDetail_Reviews_OurTeam" = "OUR TEAM";
+"lbl_BookingHeader" = "Booking";
+"lbl_Booking_Doyouhavepromocode" = "Do you have promocode?";
+"lbl_ConfirmBookingHeader" = "Confirm Booking";
+"lbl_ConfirmBooking_Date" = "Date";
+"lbl_ConfirmBooking_Duration" = "Duration";
+"lbl_ConfirmBooking_Price" = "Price";
+"lbl_ConfirmBooking_Discount" = "Discount";
+"lbl_ConfirmBooking_Promocode" = "Promocode";
+"lbl_Register_AleradyHaveAccount" = "Already have an Account?";
+"lbl_Register_LoginIn" = "Login In";
+"lbl_Register_Or" = "Or";
+"lbl_Register_Signupas" = "Sign up as";
+"lbl_Register_BeautyProfessional" = "Beauty Professional";
+"lbl_Salon" = "Salon";
+"lbl_Profile" = "Profile";
+"lbl_Other" = "Other";
+"lbl_FindSalonService" = "Find Salon / Service";
+"lbl_lastMintOffer" = "Last Minute Offer";
+"lbl_MyProfile" = "My Profile";
+"lbl_MyAppointment" = "My Appointment";
+"lbl_MyFavoriteSalon" = "My Favorite Salon";
+"lbl_TermsConditions" = "Terms & Conditions";
+"lbl_PrivacyPolicy" = "Privacy Policy";
+"lbl_Contact" = "Contact";
+
+// Button Text
+"btn_MyAppointmentLatest" = "Latest";
+"btn_MyAppointmentUpcoming" = "Upcoming";
+"btn_MyAppointmentCell_Message" = "Message";
+"btn_MyAppointmentCell_Modify" = "Modify";
+"btn_MyAppointmentCell_Cancel" = "Cancel";
+"btn_MyAppointmentCell_Reshedule" = "Reshedule";
+"btn_MyAppointmentCell_Fedback" = "Fedback";
+"btn_MyAppointmentLastMintOffer" = "Last Minute Offer";
+"btn_PopMyAppointment_Service" = "Service";
+"btn_PopMyAppointment_Time" = "Time";
+"btn_SalonDetail_Services" = "Services";
+"btn_SalonDetail_Offers" = "Offers";
+"btn_SalonDetail_Info" = "Info";
+"btn_SalonDetail_Reviews" = "Reviews";
+"btn_Register" = "Register";
+"btn_Register_Facebook" = "Continue with Facebook";
+"btn_BookLastminOfferCell_BookNow" = "Book Now";
+
+// Placeholder Text
+"txtPlace_ContactusFullName" = "Enter Name";
+"txtPlace_ContactusEmailID" = "Enter ID";
+"txtPlace_ContactusPhone" = "Enter Phone";
+"txtPlace_ContactusSubject" = "Enter Subject";
+"txtPlace_ContactusComment" = "Enter Comments or query";
+"txtPlace_MessageType" = "Type here...";
+"txtPlace_BookLastminOfferCell2_Comment" = "Any message type here";
+"txtPlace_SearchSalonProfessionistorService" = "Search Salon, Professionist or Service";
+"txtPlace_Booking_Enterpromocodehere" = "Enter promocode here";
+"txtPlace_Register_FirstName" = "First Name";
+"txtPlace_Register_LastName" = "Last Name";
+"txtPlace_Register_Email" = "Email";
+"txtPlace_Register_Phone" = "Phone";
+"txtPlace_Register_Password" = "Password";
+"txtPlace_Register_ConfirmPassword" = "Confirm Password";
+
+// Comman Button Text
+"Comman_btn_Submit" = "Submit";
+"Comman_btn_Done" = "Done";
+"Comman_btn_Send" = "Send";
+"Comman_btn_Yes" = "Yes";
+"Comman_btn_No" = "No";
+"Comman_btn_Cancel" = "Cancel";
+"Comman_btn_Ok" = "Ok";
+"Comman_btn_Save" = "Save";
+
+// Message Text
+"msg_Enterfirstname" = "Please enter first name";
+"msg_Enterlastname" = "Please enter last name";
+"msg_Enteremail" = "Please enter email";
+"msg_Entervalidemail" = "Please enter valid email";
+"msg_Enterphone" = "Please enter phone";
+"msg_Enterpassword" = "Please enter password";
+"msg_Enterconfirmpassword" = "Please enter confirm password";
+"msg_Notmatchconfirmpassword" = "Confirm password doesn't match your password";
+"msg_Minimumpasswordlenght" = "Password should be minimum of 6 letters";
+
+

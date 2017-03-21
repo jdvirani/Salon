@@ -1,0 +1,61 @@
+PODS:
+  - Alamofire (4.3.0)
+  - AlamofireSwiftyJSON (0.2.0):
+    - Alamofire (~> 4.0)
+    - SwiftyJSON (~> 3.1)
+  - Color-Picker-for-iOS (2.0.2)
+  - DropDown (2)
+  - FontAwesome.swift (1.0.0)
+  - Material (2.4.16):
+    - Material/Core (= 2.4.16)
+  - Material/Core (2.4.16)
+  - MIBadgeButton-Swift (0.5)
+  - R.swift (3.2.0):
+    - R.swift.Library (~> 3.0.2)
+  - R.swift.Library (3.0.2)
+  - SVProgressHUD (2.1.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - AlamofireSwiftyJSON
+  - Color-Picker-for-iOS (~> 2.0)
+  - DropDown
+  - FontAwesome.swift
+  - Material (~> 2.0)
+  - MIBadgeButton-Swift (from `https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git`, branch `master`)
+  - R.swift
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  MIBadgeButton-Swift:
+    :branch: master
+    :git: https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+CHECKOUT OPTIONS:
+  MIBadgeButton-Swift:
+    :commit: 44b28fd7c9071439861f9b0c366c84a55ffd7e53
+    :git: https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git
+  SVProgressHUD:
+    :commit: 803bc1e473e2861f75abf06174d9c937de7a0fe0
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  AlamofireSwiftyJSON: 5a49196b8b061e32f5ebc84fa0815300bd8a974e
+  Color-Picker-for-iOS: 4980589b3e3cfe7198f227dd50be9adb02d8bc0b
+  DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
+  FontAwesome.swift: 2d32a3d62195343c2004b7c9043294ed2948553a
+  Material: 84645fb4c9409c3db76bd7c8e1fd00dc4a76c144
+  MIBadgeButton-Swift: 9e57309b00b168d75ca8fecb45bc75124a8ffddf
+  R.swift: 207a372a2b5977caef440c696a368009460641d1
+  R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
+  SVProgressHUD: d65371a8e4482380deddb9fe60e14e59ddb30eb3
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 184083a0b6322bace0b037ffba632d607b2a03ac
+
+COCOAPODS: 1.2.0

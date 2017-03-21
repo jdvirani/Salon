@@ -1,0 +1,16 @@
+/* 
+  Common.strings
+  SalonX
+
+  Created by DK on 10/02/17.
+  Copyright © 2017 Jaydeep Vora. All rights reserved.
+*/
+
+
+//MARK: - ViewController Titles
+"dashboard" = "Dash";
+"manageSalon" = "Manage Salon";
+"agenda" = "Agenda";
+"report" = "Report";
+"client" = "Client";
+

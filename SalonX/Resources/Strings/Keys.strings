@@ -1,0 +1,37 @@
+/* 
+  Keys.strings
+  SalonX
+
+  Created by DK on 28/02/17.
+  Copyright © 2017 Jaydeep Vora. All rights reserved.
+*/
+
+//authorizatoin
+"authUsername" = "salon";
+"authPassword" = "b.7]>hp}wQDxN#B";
+
+"firstname" = "name";
+"lastname" = "lastname";
+"email" = "email";
+"password" = "password";
+"mobile" = "mobile";
+"city" = "city";
+"business_type" = "business_type";
+"lang" = "lang"; // 1 for Romanian, 0 For English
+"device_token" = "device_token";
+"Register_id" = "register_id";
+"lattitude" = "lattitude";
+"longtitude" = "longtitude";
+"device_type" = "device_type";
+"access_token" = "access_token";
+"salon_id" = "salon_id";
+
+//Response key
+"flag" = "flag";
+"data" = "data";
+"msg" = "msg";
+
+//User Defaults Key
+
+"userDetail" = "salonUserDetail";
+"isUserSignIn" = "isUserSignIn";

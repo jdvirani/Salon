@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="HomeSearchCell" rowHeight="38" id="CMM-hC-sKf" customClass="HomeSearchHeaderSubCell" customModule="SalonX" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="38"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CMM-hC-sKf" id="c2a-hT-kVZ">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wpj-lG-lR7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="38"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDD-rp-5yo">
+                                <rect key="frame" x="48" y="10" width="268" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="17" id="dpO-gf-6Tb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_search_salon_home_page" translatesAutoresizingMaskIntoConstraints="NO" id="lR8-mX-4zA">
+                                <rect key="frame" x="15" y="10" width="18" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="C28-Js-a1V"/>
+                                    <constraint firstAttribute="width" constant="18" id="hhz-nb-7Xe"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="eDD-rp-5yo" secondAttribute="bottom" constant="11" id="0OP-qb-Ugd"/>
+                            <constraint firstItem="eDD-rp-5yo" firstAttribute="leading" secondItem="lR8-mX-4zA" secondAttribute="trailing" constant="15" id="Fyy-lL-zsQ"/>
+                            <constraint firstItem="lR8-mX-4zA" firstAttribute="top" secondItem="Wpj-lG-lR7" secondAttribute="top" constant="10" id="ZhL-tR-epT"/>
+                            <constraint firstItem="eDD-rp-5yo" firstAttribute="top" secondItem="Wpj-lG-lR7" secondAttribute="top" constant="10" id="dVn-JJ-vXa"/>
+                            <constraint firstItem="lR8-mX-4zA" firstAttribute="leading" secondItem="Wpj-lG-lR7" secondAttribute="leading" constant="15" id="if0-tg-iz7"/>
+                            <constraint firstAttribute="trailing" secondItem="eDD-rp-5yo" secondAttribute="trailing" constant="4" id="oZR-xh-B2A"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Wpj-lG-lR7" firstAttribute="top" secondItem="c2a-hT-kVZ" secondAttribute="top" id="Fjb-JY-WTO"/>
+                    <constraint firstAttribute="trailing" secondItem="Wpj-lG-lR7" secondAttribute="trailing" id="GAO-xk-DgY"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Wpj-lG-lR7" secondAttribute="bottom" constant="-9" id="YZK-1i-ohJ"/>
+                    <constraint firstItem="Wpj-lG-lR7" firstAttribute="leading" secondItem="c2a-hT-kVZ" secondAttribute="leading" id="euc-7T-HPQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="Img_Resultsubcell" destination="lR8-mX-4zA" id="hxW-Ga-XLc"/>
+                <outlet property="lbl_ResultSubName" destination="eDD-rp-5yo" id="La6-B9-6DZ"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="84.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_search_salon_home_page" width="26" height="26"/>
+    </resources>
+</document>

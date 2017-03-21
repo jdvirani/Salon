@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SalonDetailInfoProgramCell" rowHeight="31" id="mCy-Y2-2j6" customClass="SalonDetailCells" customModule="SalonX" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="31"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mCy-Y2-2j6" id="WMi-sL-0N2">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VmW-dA-bPN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wednesday" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIg-1V-lMP">
+                                <rect key="frame" x="23" y="5" width="131" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="131" id="uHT-LY-alO"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="zlZ-wz-b7L"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                <color key="textColor" red="0.16862745100000001" green="0.1764705882" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8:00 - 16:00" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qD3-hd-BNp">
+                                <rect key="frame" x="159" y="5" width="155" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="gFf-d0-WVB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                <color key="textColor" red="0.16862745100000001" green="0.1764705882" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qD3-hd-BNp" firstAttribute="leading" secondItem="NIg-1V-lMP" secondAttribute="trailing" constant="5" id="2ZY-iX-RAv"/>
+                            <constraint firstItem="NIg-1V-lMP" firstAttribute="leading" secondItem="VmW-dA-bPN" secondAttribute="leading" constant="23" id="FDH-CA-x2s"/>
+                            <constraint firstAttribute="bottom" secondItem="NIg-1V-lMP" secondAttribute="bottom" constant="7" id="deP-Sa-Ggg"/>
+                            <constraint firstItem="NIg-1V-lMP" firstAttribute="top" secondItem="VmW-dA-bPN" secondAttribute="top" constant="5" id="mQC-bg-IpF"/>
+                            <constraint firstItem="qD3-hd-BNp" firstAttribute="top" secondItem="VmW-dA-bPN" secondAttribute="top" constant="5" id="vuU-ly-Dij"/>
+                            <constraint firstAttribute="trailing" secondItem="qD3-hd-BNp" secondAttribute="trailing" constant="6" id="wzf-OA-RMd"/>
+                            <constraint firstItem="qD3-hd-BNp" firstAttribute="bottom" secondItem="NIg-1V-lMP" secondAttribute="bottom" id="y0y-h0-4IH"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="VmW-dA-bPN" secondAttribute="trailing" id="9lh-5c-7bB"/>
+                    <constraint firstItem="VmW-dA-bPN" firstAttribute="leading" secondItem="WMi-sL-0N2" secondAttribute="leading" id="Bun-18-kb5"/>
+                    <constraint firstItem="VmW-dA-bPN" firstAttribute="top" secondItem="WMi-sL-0N2" secondAttribute="top" id="rAK-5d-ahC"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="VmW-dA-bPN" secondAttribute="bottom" constant="-8" id="xhA-66-SlD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lbl_ProgramDays" destination="NIg-1V-lMP" id="Vo9-9T-9xq"/>
+                <outlet property="lbl_ProgramTimes" destination="qD3-hd-BNp" id="Nlr-Y8-N1z"/>
+            </connections>
+            <point key="canvasLocation" x="-4" y="-118.5"/>
+        </tableViewCell>
+    </objects>
+</document>

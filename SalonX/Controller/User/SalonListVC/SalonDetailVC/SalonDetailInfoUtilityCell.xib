@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SalonDetailInfoUtilityCell" rowHeight="34" id="3M2-tI-iF5" customClass="SalonDetailCells" customModule="SalonX" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="34"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3M2-tI-iF5" id="SUn-32-dg5">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="34"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ckg-qm-QR2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="34"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMI-co-nVc">
+                                <rect key="frame" x="23" y="8" width="285" height="19"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vMI-co-nVc" firstAttribute="leading" secondItem="Ckg-qm-QR2" secondAttribute="leading" constant="23" id="Mt1-v2-bbv"/>
+                            <constraint firstItem="vMI-co-nVc" firstAttribute="top" secondItem="Ckg-qm-QR2" secondAttribute="top" constant="8" id="mqA-ew-rSw"/>
+                            <constraint firstAttribute="trailing" secondItem="vMI-co-nVc" secondAttribute="trailing" constant="12" id="uAG-oW-xYn"/>
+                            <constraint firstAttribute="bottom" secondItem="vMI-co-nVc" secondAttribute="bottom" constant="6.5" id="xPm-r5-mzI"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ckg-qm-QR2" firstAttribute="top" secondItem="SUn-32-dg5" secondAttribute="top" id="3Md-XB-O2V"/>
+                    <constraint firstItem="Ckg-qm-QR2" firstAttribute="leading" secondItem="SUn-32-dg5" secondAttribute="leading" id="5ys-0t-eVu"/>
+                    <constraint firstAttribute="trailing" secondItem="Ckg-qm-QR2" secondAttribute="trailing" id="ibe-e3-6jC"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Ckg-qm-QR2" secondAttribute="bottom" constant="-8" id="ypA-KK-nNt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lbl_InfoUtilityName" destination="vMI-co-nVc" id="A9M-ws-bmo"/>
+            </connections>
+            <point key="canvasLocation" x="-4" y="-117"/>
+        </tableViewCell>
+    </objects>
+</document>

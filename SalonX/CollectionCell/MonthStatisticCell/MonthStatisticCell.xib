@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="FK9-Xr-jhR" customClass="MonthStastisticCollectionViewCell" customModule="SalonX" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="87" height="21"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="87" height="21"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lSb-hb-78G">
+                        <rect key="frame" x="0.0" y="0.0" width="87" height="21"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4Z-ba-M2h">
+                                <rect key="frame" x="0.0" y="-2" width="87" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Ke9-Bk-WcV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="SEPTEMBER |">
+                                    <color key="titleColor" red="0.015686274510000001" green="0.62352941179999999" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="SEPTEMBER |">
+                                    <color key="titleColor" red="0.0095772525380710682" green="0.0095772525380710682" blue="0.0095772525380710682" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="o4Z-ba-M2h" secondAttribute="trailing" id="Utp-VO-Lwa"/>
+                            <constraint firstItem="o4Z-ba-M2h" firstAttribute="centerY" secondItem="lSb-hb-78G" secondAttribute="centerY" id="YVx-wG-scc"/>
+                            <constraint firstItem="o4Z-ba-M2h" firstAttribute="leading" secondItem="lSb-hb-78G" secondAttribute="leading" id="mUB-80-sLM"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="lSb-hb-78G" secondAttribute="trailing" id="6Z0-LZ-a3t"/>
+                <constraint firstAttribute="bottom" secondItem="lSb-hb-78G" secondAttribute="bottom" id="OX7-Vd-XZX"/>
+                <constraint firstItem="lSb-hb-78G" firstAttribute="leading" secondItem="FK9-Xr-jhR" secondAttribute="leading" id="dVH-AA-pop"/>
+                <constraint firstItem="lSb-hb-78G" firstAttribute="width" relation="lessThanOrEqual" secondItem="FK9-Xr-jhR" secondAttribute="width" constant="15" id="f30-qf-t49"/>
+                <constraint firstItem="lSb-hb-78G" firstAttribute="top" secondItem="FK9-Xr-jhR" secondAttribute="top" id="kpx-bd-y1I"/>
+            </constraints>
+            <size key="customSize" width="87" height="21"/>
+            <connections>
+                <outlet property="btnMonthName" destination="o4Z-ba-M2h" id="Sh6-ab-meb"/>
+            </connections>
+            <point key="canvasLocation" x="-52.5" y="97.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FilterMainCategoryCell" rowHeight="56" id="HPw-jW-Mms" customClass="FilterCells" customModule="SalonX" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HPw-jW-Mms" id="IUF-P6-f5L">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SWP-9K-byG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DATE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rr4-E5-m9a">
+                                <rect key="frame" x="12" y="17" width="296" height="21"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="13"/>
+                                <color key="textColor" red="0.16862745100000001" green="0.1764705882" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="55" id="Cx6-Xb-K9f"/>
+                            <constraint firstAttribute="bottom" secondItem="Rr4-E5-m9a" secondAttribute="bottom" constant="17" id="EtX-VD-jSe"/>
+                            <constraint firstItem="Rr4-E5-m9a" firstAttribute="top" secondItem="SWP-9K-byG" secondAttribute="top" constant="17" id="SK4-8r-wBo"/>
+                            <constraint firstItem="Rr4-E5-m9a" firstAttribute="leading" secondItem="SWP-9K-byG" secondAttribute="leading" constant="12" id="SVD-Yy-WKg"/>
+                            <constraint firstAttribute="trailing" secondItem="Rr4-E5-m9a" secondAttribute="trailing" constant="12" id="jyS-67-2SJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="SWP-9K-byG" secondAttribute="trailing" id="Evo-uo-4cv"/>
+                    <constraint firstAttribute="bottom" secondItem="SWP-9K-byG" secondAttribute="bottom" id="O6H-5g-VEI"/>
+                    <constraint firstItem="SWP-9K-byG" firstAttribute="leading" secondItem="IUF-P6-f5L" secondAttribute="leading" id="rBJ-qu-qMB"/>
+                    <constraint firstItem="SWP-9K-byG" firstAttribute="top" secondItem="IUF-P6-f5L" secondAttribute="top" id="rv3-B7-7Wg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lbl_MainCategoryName" destination="Rr4-E5-m9a" id="eBg-wG-ytW"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="-64.5"/>
+        </tableViewCell>
+    </objects>
+</document>

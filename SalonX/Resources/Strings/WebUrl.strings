@@ -1,0 +1,49 @@
+/*
+  WebUrl.strings
+  SalonX
+
+  Created by DK on 28/02/17.
+  Copyright © 2017 Jaydeep Vora. All rights reserved.
+*/
+
+
+//"baseUrl" = "http://192.168.0.10/salonx/api/"; //Local
+"baseUrl" = "http://52.66.6.178/salonx/api/"; //Staging
+
+//WebService URLs
+
+"login" =  "user/login";
+"salonSignUp" = "salon/register";
+
+//Manage Salon
+"countryList" = "salon/country_list";
+"professionListURL" = "salon/profession_list";
+"saveSalonDetailURL" = "salon/save_salon_details";
+
+"saveExtraDetail" = "salon/save_extra_details";
+
+"deleteUtilityURL" = "salon/delete_utilities";
+
+"saveSalonPictureURL" = "salon/save_salon_pictures";
+
+"groupListURL" = "salon/group_list";
+"manageService" = "salon/manage_service";
+"categoryList" = "salon/categories_list";
+
+"manageEmployeeURL" = "salon/manage_employees";
+"salonServiceListURL" = "salon/service_list";
+
+"manageProgramURL" = "salon/manage_salon_program";
+
+"lastMinuteOfferURL" = "salon/last_minute_offer";
+
+"clientURL" = "salon/salon_client";
+
+//Agenda
+"salonAgendaURL" = "salon/salon_agenda";
+"salonAgendaAppointmentURL" = "salon/salon_agenda_appointments";
+"employeeListableURL" = "salon/employee_agenda_listable";
+"searchClient" = "salon/search_clients";
+
+//Logout
+"logoutURL" = "user/logout";

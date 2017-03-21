@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ManageEmployeeViewController" customModule="SalonX" customModuleProvider="target">
+            <connections>
+                <outlet property="bottomOfCollectionView" destination="zrD-NX-4yt" id="CfS-iu-msy"/>
+                <outlet property="btnSave" destination="AOj-hC-Dgs" id="Ngz-rc-DsY"/>
+                <outlet property="buttonHeight" destination="4oC-IC-5VS" id="kIJ-Cr-fPO"/>
+                <outlet property="collectionView" destination="lAb-tK-lvF" id="OkE-M9-qag"/>
+                <outlet property="view" destination="iN0-l3-epB" id="eEn-6H-WBP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWl-An-sc9">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ynb-NT-y8c">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <subviews>
+                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="lAb-tK-lvF">
+                                    <rect key="frame" x="5" y="8" width="310" height="520"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="g2D-Dg-9MA">
+                                        <size key="itemSize" width="50" height="50"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="GzS-3K-iCT"/>
+                                        <outlet property="delegate" destination="-1" id="nuf-d8-tQB"/>
+                                    </connections>
+                                </collectionView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="lAb-tK-lvF" firstAttribute="leading" secondItem="ynb-NT-y8c" secondAttribute="leading" constant="5" id="J84-aR-btA"/>
+                                <constraint firstAttribute="trailing" secondItem="lAb-tK-lvF" secondAttribute="trailing" constant="5" id="QFx-1d-R7M"/>
+                                <constraint firstItem="lAb-tK-lvF" firstAttribute="top" secondItem="ynb-NT-y8c" secondAttribute="top" constant="8" id="dwX-D1-rMY"/>
+                                <constraint firstAttribute="bottom" secondItem="lAb-tK-lvF" secondAttribute="bottom" constant="40" id="zrD-NX-4yt"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="ynb-NT-y8c" secondAttribute="trailing" id="9oQ-sQ-DC9"/>
+                        <constraint firstItem="ynb-NT-y8c" firstAttribute="centerX" secondItem="IWl-An-sc9" secondAttribute="centerX" id="TzM-xj-01i"/>
+                        <constraint firstItem="ynb-NT-y8c" firstAttribute="top" secondItem="IWl-An-sc9" secondAttribute="top" id="gb2-xx-HQZ"/>
+                        <constraint firstAttribute="bottom" secondItem="ynb-NT-y8c" secondAttribute="bottom" id="nfz-2s-vJY"/>
+                        <constraint firstItem="ynb-NT-y8c" firstAttribute="leading" secondItem="IWl-An-sc9" secondAttribute="leading" id="oHA-N5-fa4"/>
+                        <constraint firstItem="ynb-NT-y8c" firstAttribute="centerY" secondItem="IWl-An-sc9" secondAttribute="centerY" id="otg-yd-bDq"/>
+                    </constraints>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AOj-hC-Dgs">
+                    <rect key="frame" x="0.0" y="528" width="320" height="40"/>
+                    <color key="backgroundColor" red="0.015686274510000001" green="0.62352941179999999" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="4oC-IC-5VS"/>
+                    </constraints>
+                    <state key="normal" title="Save">
+                        <color key="titleColor" red="0.99989157920000005" green="1" blue="0.99988085029999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnSaveTapped:" destination="-1" eventType="touchUpInside" id="8UY-Yz-6lZ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="AOj-hC-Dgs" secondAttribute="bottom" id="0uN-1u-3yK"/>
+                <constraint firstAttribute="trailing" secondItem="AOj-hC-Dgs" secondAttribute="trailing" id="9pQ-qJ-Odw"/>
+                <constraint firstItem="IWl-An-sc9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Mjd-R7-1fh"/>
+                <constraint firstAttribute="trailing" secondItem="IWl-An-sc9" secondAttribute="trailing" id="P2J-4r-YvK"/>
+                <constraint firstAttribute="bottom" secondItem="IWl-An-sc9" secondAttribute="bottom" id="RR7-cI-W9e"/>
+                <constraint firstItem="IWl-An-sc9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="YIE-Hg-x5o"/>
+                <constraint firstItem="AOj-hC-Dgs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aeL-aE-9bc"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

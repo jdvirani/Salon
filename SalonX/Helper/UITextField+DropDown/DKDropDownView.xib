@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DKDropDownView" customModule="SalonX" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="260"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <toolbar hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0xo-yg-dsm">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="oOE-0v-GcE"/>
+                    </constraints>
+                    <items>
+                        <barButtonItem title="Cancel" id="kuv-l7-TSX">
+                            <connections>
+                                <action selector="btnCancleAction:" destination="iN0-l3-epB" id="JPW-BY-mNv"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="Fg1-5m-pu6"/>
+                        <barButtonItem title="Done" id="rox-Mr-uuw">
+                            <connections>
+                                <action selector="btnDoneAction:" destination="iN0-l3-epB" id="A2b-dj-S7T"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OM4-8d-Gcb">
+                    <rect key="frame" x="0.0" y="45" width="375" height="215.5"/>
+                </pickerView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcc-ph-2cX">
+                    <rect key="frame" x="0.0" y="44" width="375" height="0.5"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="Alz-1e-zJp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0xo-yg-dsm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="222-Nq-dHq"/>
+                <constraint firstAttribute="trailing" secondItem="OM4-8d-Gcb" secondAttribute="trailing" id="79W-6N-NOg"/>
+                <constraint firstItem="gcc-ph-2cX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9h0-Bm-8O7"/>
+                <constraint firstItem="OM4-8d-Gcb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="BxT-tX-Xgl"/>
+                <constraint firstItem="gcc-ph-2cX" firstAttribute="top" secondItem="0xo-yg-dsm" secondAttribute="bottom" id="Fgx-zV-N2s"/>
+                <constraint firstAttribute="trailing" secondItem="gcc-ph-2cX" secondAttribute="trailing" id="GHV-p1-jrR"/>
+                <constraint firstItem="0xo-yg-dsm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Ofb-55-ulE"/>
+                <constraint firstAttribute="trailing" secondItem="0xo-yg-dsm" secondAttribute="trailing" id="PrP-VV-5kA"/>
+                <constraint firstAttribute="bottom" secondItem="OM4-8d-Gcb" secondAttribute="bottom" id="SWF-2I-jeV"/>
+                <constraint firstItem="OM4-8d-Gcb" firstAttribute="top" secondItem="gcc-ph-2cX" secondAttribute="bottom" id="j36-Zy-txy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnCancel" destination="kuv-l7-TSX" id="A8i-OJ-pu9"/>
+                <outlet property="btnDone" destination="rox-Mr-uuw" id="qv8-6h-VIB"/>
+                <outlet property="pickerView" destination="OM4-8d-Gcb" id="I4H-oj-Arq"/>
+                <outlet property="toolbar" destination="0xo-yg-dsm" id="1qo-7V-bsF"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="256"/>
+        </view>
+    </objects>
+</document>

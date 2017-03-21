@@ -1,0 +1,48 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2J0-fI-Ow7"; */
+"2J0-fI-Ow7.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Logout"; ObjectID = "3qo-Za-ggL"; */
+"3qo-Za-ggL.text" = "Logout";
+
+/* Class = "UILabel"; text = "Contact"; ObjectID = "5In-ci-ulO"; */
+"5In-ci-ulO.text" = "Contact";
+
+/* Class = "UILabel"; text = "Blog"; ObjectID = "DM6-YD-qYW"; */
+"DM6-YD-qYW.text" = "Blog";
+
+/* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "E6I-mH-b0p"; */
+"E6I-mH-b0p.text" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "Help"; ObjectID = "F5z-yA-WDS"; */
+"F5z-yA-WDS.text" = "Help";
+
+/* Class = "UILabel"; text = "Terms and Conditions"; ObjectID = "FjS-IO-h76"; */
+"FjS-IO-h76.text" = "Terms and Conditions";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "SAR-W5-1LO"; */
+"SAR-W5-1LO.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "TXz-mc-fbf"; */
+"TXz-mc-fbf.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Beauty Professional"; ObjectID = "WvP-Rz-vFD"; */
+"WvP-Rz-vFD.normalTitle" = "Beauty Professional";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "dBc-6v-fKt"; */
+"dBc-6v-fKt.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Don't have an Account?"; ObjectID = "g2h-71-ghp"; */
+"g2h-71-ghp.text" = "Don't have an Account?";
+
+/* Class = "UILabel"; text = "Login & Password"; ObjectID = "qb6-r4-F9w"; */
+"qb6-r4-F9w.text" = "Login & Password";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "qph-QD-ky7"; */
+"qph-QD-ky7.normalTitle" = "Sign up";
+
+/* Class = "UILabel"; text = "Or"; ObjectID = "sB3-qn-iaa"; */
+"sB3-qn-iaa.text" = "Or";
+
+/* Class = "UILabel"; text = "Sign up as"; ObjectID = "tJd-aC-lt1"; */
+"tJd-aC-lt1.text" = "Sign up as";

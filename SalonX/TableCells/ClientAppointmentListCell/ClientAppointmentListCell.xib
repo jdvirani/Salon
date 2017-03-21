@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="O7v-gK-JhW" customClass="ClientAppointmentTableViewCell" customModule="SalonX" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="98"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O7v-gK-JhW" id="b5V-G9-0Om">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="97"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dg0-OT-4pk">
+                        <rect key="frame" x="8" y="8" width="384" height="81.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="WOMNE HAIR SHORT" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CIx-WP-1fA">
+                                <rect key="frame" x="8" y="12" width="146.5" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
+                                <color key="textColor" red="0.16862745100000001" green="0.1764705882" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(45 Min)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0Z-Ay-qkR">
+                                <rect key="frame" x="162.5" y="12" width="48" height="15"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                                <color key="textColor" red="0.20392156859999999" green="0.23137254900000001" blue="0.27058823529999998" alpha="0.60000002379999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="by Beba Veja" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRe-5U-dB0">
+                                <rect key="frame" x="8" y="32.5" width="368" height="14"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                                <color key="textColor" red="0.20392156859999999" green="0.23137254900000001" blue="0.27058823529999998" alpha="0.60000002379999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="07-SEP / 6:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i35-4B-mdw">
+                                <rect key="frame" x="8" y="54.5" width="368" height="19"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="11"/>
+                                <color key="textColor" red="0.20392156859999999" green="0.23137254900000001" blue="0.27058823529999998" alpha="0.60000002379999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96068006753921509" green="0.96084445714950562" blue="0.96066969633102417" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="yRe-5U-dB0" secondAttribute="trailing" constant="8" id="AAl-XC-7gn"/>
+                            <constraint firstItem="CIx-WP-1fA" firstAttribute="leading" secondItem="dg0-OT-4pk" secondAttribute="leading" constant="8" id="DM6-3R-gPj"/>
+                            <constraint firstItem="yRe-5U-dB0" firstAttribute="top" secondItem="CIx-WP-1fA" secondAttribute="bottom" constant="4" id="KHa-AE-TEL"/>
+                            <constraint firstItem="h0Z-Ay-qkR" firstAttribute="top" secondItem="CIx-WP-1fA" secondAttribute="top" id="Nuw-re-nsc"/>
+                            <constraint firstAttribute="bottom" secondItem="i35-4B-mdw" secondAttribute="bottom" constant="8" id="TSt-F8-5w9"/>
+                            <constraint firstItem="i35-4B-mdw" firstAttribute="top" secondItem="yRe-5U-dB0" secondAttribute="bottom" constant="8" id="Upu-gc-ANC"/>
+                            <constraint firstAttribute="trailing" secondItem="i35-4B-mdw" secondAttribute="trailing" constant="8" id="aNv-4y-guB"/>
+                            <constraint firstItem="yRe-5U-dB0" firstAttribute="leading" secondItem="dg0-OT-4pk" secondAttribute="leading" constant="8" id="ob6-bD-qzK"/>
+                            <constraint firstItem="i35-4B-mdw" firstAttribute="leading" secondItem="dg0-OT-4pk" secondAttribute="leading" constant="8" id="rlN-vC-kBc"/>
+                            <constraint firstItem="h0Z-Ay-qkR" firstAttribute="leading" secondItem="CIx-WP-1fA" secondAttribute="trailing" constant="8" id="sPH-91-IWo"/>
+                            <constraint firstItem="CIx-WP-1fA" firstAttribute="top" secondItem="dg0-OT-4pk" secondAttribute="top" constant="12" id="wxF-SY-lxV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="dg0-OT-4pk" secondAttribute="bottom" constant="8" id="Rga-jm-W9J"/>
+                    <constraint firstItem="dg0-OT-4pk" firstAttribute="top" secondItem="b5V-G9-0Om" secondAttribute="top" constant="8" id="VCY-zV-LMq"/>
+                    <constraint firstAttribute="trailing" secondItem="dg0-OT-4pk" secondAttribute="trailing" constant="8" id="Yw0-Ee-RGk"/>
+                    <constraint firstItem="dg0-OT-4pk" firstAttribute="leading" secondItem="b5V-G9-0Om" secondAttribute="leading" constant="8" id="jpM-ho-tfX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblDuration" destination="h0Z-Ay-qkR" id="8R2-hr-LQN"/>
+                <outlet property="lblEmployeeName" destination="yRe-5U-dB0" id="lxX-Gg-yTT"/>
+                <outlet property="lblServiceName" destination="CIx-WP-1fA" id="4E9-5q-XOp"/>
+                <outlet property="lblTime" destination="i35-4B-mdw" id="mtU-Yt-C5P"/>
+                <outlet property="viewBG" destination="dg0-OT-4pk" id="fan-2F-yUu"/>
+            </connections>
+            <point key="canvasLocation" x="-84" y="49.5"/>
+        </tableViewCell>
+    </objects>
+</document>
